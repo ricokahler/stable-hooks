@@ -2,6 +2,8 @@
 
 [![bundlephobia](https://badgen.net/bundlephobia/minzip/@ricokahler/stable-hooks)](https://bundlephobia.com/package/@ricokahler/stable-hooks) [![https://github.com/ricokahler/stable-hooks/actions](https://badgen.net/github/checks/ricokahler/stable-hooks)](https://github.com/ricokahler/color2k/actions) [![codecov](https://codecov.io/gh/ricokahler/stable-hooks/branch/main/graph/badge.svg?token=qWDtHClxvP)](https://codecov.io/gh/ricokahler/stable-hooks)
 
+⚠️ This library is well-tested but the README/docs still needs work. A 1.0 should be around the corner.
+
 > hooks that wrap unstable values for more control over incoming hook dependencies
 
 ## Installation
@@ -148,7 +150,7 @@ function Example(props) {
   const style = useStableValue(props.style);
 
   useEffect(() => {
-    // do something only when the _contents) of
+    // do something only when the _contents_ of
     // the style object changes
   }, [style]);
 
