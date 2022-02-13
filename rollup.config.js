@@ -1,6 +1,8 @@
 import babel from '@rollup/plugin-babel';
+import resolve from '@rollup/plugin-node-resolve';
 
-const input = './index.ts';
+const input = './src/index.ts';
+const extensions = ['.ts', '.tsx'];
 
 // please update the package.json to reflect any changes here
 const bundles = createBundles({
@@ -66,11 +68,12 @@ function createBundles(config, parents = []) {
           ...output,
         },
         plugins: [
+          resolve({ extensions, modulesOnly: true }),
           babel({
             babelrc: false,
             configFile: false,
             babelHelpers: 'bundled',
-            extensions: ['.ts'],
+            extensions,
             targets,
             presets: [
               ['@babel/preset-env', { targets }],

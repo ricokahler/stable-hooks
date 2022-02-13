@@ -11,5 +11,6 @@
     "target": "esnext",
     "outDir": "./dist"
   },
-  "include": ["./index.ts"]
+  "include": ["./src/**/*"],
+  "exclude": ["./src/**/*.test.ts", "./src/**/*.test.tsx"]
 }
