@@ -53,7 +53,7 @@ export default function App() {
 
 ### `useStableGetter`
 
-[implementation](#todo) | [tests](#todo)
+[implementation](https://github.com/ricokahler/stable-hooks/blob/main/src/use-stable-getter.ts) | [tests](https://github.com/ricokahler/stable-hooks/blob/main/src/use-stable-getter.test.tsx)
 
 Wraps incoming values in a stable getter function that returns the latest value.
 
@@ -92,7 +92,7 @@ function Dialog(props) {
 
 ### `useStableCallback`
 
-[implementation](#todo) | [tests](#todo)
+[implementation](https://github.com/ricokahler/stable-hooks/blob/main/src/use-stable-callback.ts) | [tests](https://github.com/ricokahler/stable-hooks/blob/main/src/use-stable-callback.test.tsx)
 
 Returns a stable callback that does _not_ change between re-renders.
 
@@ -127,7 +127,7 @@ function Dialog(props) {
 
 ### `useStableValue`
 
-[implementation](#todo) | [tests](#todo)
+[implementation](https://github.com/ricokahler/stable-hooks/blob/main/src/use-stable-value.ts) | [tests](https://github.com/ricokahler/stable-hooks/blob/main/src/use-stable-value.test.tsx)
 
 Given an unstable value, `useStableValue` hashes the incoming value against a `hashFn` (by default, this is `JSON.stringify`) and if the hash is unchanged, the previous value will be returned.
 
