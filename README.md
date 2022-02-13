@@ -2,6 +2,12 @@
 
 > hooks that unstable values for more control over incoming hook dependencies
 
+## Installation
+
+```
+npm i --save @ricokahler/stable-hooks
+```
+
 ## Motivation
 
 In complex React components, it quickly becomes challenging to control how incoming values affect your downstream hooks.
