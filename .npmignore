@@ -1,0 +1,12 @@
+scripts
+node_modules
+.babelrc
+.eslintrc
+.gitignore
+.npmignore
+bug-demo.gif
+index.test.tsx
+package-lock.json
+renovate.json
+rollup.config.js
+tsconfig.json

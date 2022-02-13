@@ -1,0 +1,55 @@
+{
+  "name": "@ricokahler/stable-hooks",
+  "version": "0.1.0",
+  "description": "hooks that unstable values for more control over incoming hook dependencies",
+  "keywords": [
+    "react",
+    "react-hooks"
+  ],
+  "homepage": "https://github.com/ricokahler/stable-hooks",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ricokahler/stable-hooks.git"
+  },
+  "license": "MIT",
+  "author": {
+    "name": "Rico Kahler",
+    "email": "hello@rico.codes",
+    "url": "https://rico.codes"
+  },
+  "sideEffects": false,
+  "exports": {
+    ".": [
+      {
+        "import": "./dist/index.exports.import.es.mjs",
+        "default": "./dist/index.exports.require.cjs.js"
+      },
+      "./dist/index.exports.require.cjs.js"
+    ],
+    "./package.json": "./package.json"
+  },
+  "main": "./dist/index.main.cjs.js",
+  "unpkg": "./dist/index.unpkg.umd.js",
+  "module": "./dist/index.module.es.js",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "build": "./scripts/build",
+    "lint": "eslint index.ts",
+    "prepare": "npm run build",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.16.11",
+    "@babel/preset-typescript": "^7.16.7",
+    "@rollup/plugin-babel": "^5.3.0",
+    "@sanity/eslint-config-studio": "^2.0.0",
+    "@types/jest": "^27.4.0",
+    "@types/react": "^17.0.39",
+    "@types/react-test-renderer": "^17.0.1",
+    "eslint": "^8.9.0",
+    "jest": "^27.5.1",
+    "react": "^17.0.2",
+    "react-test-renderer": "^17.0.2",
+    "rollup": "^2.67.2"
+  }
+}

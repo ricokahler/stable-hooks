@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "declaration": true,
+    "emitDeclarationOnly": true,
+    "esModuleInterop": true,
+    "jsx": "preserve",
+    "isolatedModules": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "strict": true,
+    "target": "esnext",
+    "outDir": "./dist"
+  },
+  "include": ["./index.ts"]
+}
