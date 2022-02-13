@@ -1,4 +1,6 @@
-# `@ricokahler/stable-hooks` · [![bundlephobia](https://badgen.net/bundlephobia/minzip/@ricokahler/stable-hooks)](https://bundlephobia.com/package/@ricokahler/stable-hooks) [![https://github.com/ricokahler/stable-hooks/actions](https://badgen.net/github/checks/ricokahler/stable-hooks)](https://github.com/ricokahler/color2k/actions) [![codecov](https://codecov.io/gh/ricokahler/stable-hooks/branch/main/graph/badge.svg?token=qWDtHClxvP)](https://codecov.io/gh/ricokahler/stable-hooks)
+# `@ricokahler/stable-hooks`
+
+[![bundlephobia](https://badgen.net/bundlephobia/minzip/@ricokahler/stable-hooks)](https://bundlephobia.com/package/@ricokahler/stable-hooks) [![https://github.com/ricokahler/stable-hooks/actions](https://badgen.net/github/checks/ricokahler/stable-hooks)](https://github.com/ricokahler/color2k/actions) [![codecov](https://codecov.io/gh/ricokahler/stable-hooks/branch/main/graph/badge.svg?token=qWDtHClxvP)](https://codecov.io/gh/ricokahler/stable-hooks)
 
 > hooks that wrap unstable values for more control over incoming hook dependencies
 
