@@ -1,7 +1,7 @@
 {
   "name": "@ricokahler/stable-hooks",
   "version": "0.1.1",
-  "description": "hooks that unstable values for more control over incoming hook dependencies",
+  "description": "hooks that wrap unstable values for more control over incoming hook dependencies",
   "keywords": [
     "react",
     "react-hooks"
