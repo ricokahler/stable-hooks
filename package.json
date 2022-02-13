@@ -1,6 +1,6 @@
 {
   "name": "@ricokahler/stable-hooks",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "hooks that unstable values for more control over incoming hook dependencies",
   "keywords": [
     "react",
@@ -53,5 +53,8 @@
     "react-test-renderer": "^17.0.2",
     "rollup": "^2.67.2",
     "typescript": "^4.5.5"
+  },
+  "peerDependencies": {
+    "react": "^16.8 || ^17 || ^18"
   }
 }
